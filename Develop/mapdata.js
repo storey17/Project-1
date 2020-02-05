@@ -165,7 +165,8 @@ var simplemaps_usmap_mapdata={
     },
     IA: {
       name: "Iowa",
-      color: "#3B729F"
+      color: "#3B729F",
+      state_description: "Hello",
     },
     MN: {
       name: "Minnesota"
