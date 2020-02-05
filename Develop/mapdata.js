@@ -8,7 +8,7 @@ var simplemaps_usmap_mapdata={
     popups: "detect",
     
     //State defaults
-    state_description: "State Description",
+    state_description: "",
     state_color: "#88a4bc",
     state_hover_color: "#88A4BC",
     state_url: "",

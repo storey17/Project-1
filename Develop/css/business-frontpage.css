@@ -6,3 +6,11 @@
 body {
   padding-top: 56px;
 }
+
+.navbar {
+  background-color: #cc0000;
+}
+
+footer {
+  background-color: #cc0000;
+}
