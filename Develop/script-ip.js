@@ -1,6 +1,3 @@
-
-
-
 var $nytHeadline = $("#nyt-headline");
 var $nytImage = $("#nyt-image");
 var $nytButton = $("#nyt-button");
@@ -36,7 +33,7 @@ var settings = {
     console.log(response);
     console.log(url);
     console.log(title);
-    $(".justHere").text(title);
+    $(".red-title").text(title);
     $(".red-URL").attr("href", url);
   });
   
