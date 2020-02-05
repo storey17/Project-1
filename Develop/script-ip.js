@@ -1,3 +1,5 @@
+// This is the NYT API
+
 var $nytHeadline = $("#nyt-headline");
 var $nytImage = $("#nyt-image");
 var $nytButton = $("#nyt-button");
