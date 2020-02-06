@@ -21,22 +21,22 @@ $.ajax({
 // This is the reddit API
 
 var redditSettings = {
-    async: true,
-    crossDomain: true,
+    // async: true,
+    // crossDomain: true,
     url: "https://www.reddit.com/r/politics/top.json?count=1",
     method: "GET",
-    data: {}
+    // data: {}
   };
   
   $.ajax(redditSettings).done(function(response) {
     var url = response.data.children[0].data.url; // this is the link for the article
     var title = response.data.children[0].data.title; //this is title
   
-    console.log(response);
-    console.log(url);
+    console.log("Reddit start", response);
+    console.log("Can I see this link?", url);
     console.log(title);
     $(".red-title").text(title);
-    $(".red-URL").attr("src", url);
+    $(".red-URL").attr("href", url);
   });
   
   
@@ -56,7 +56,7 @@ var redditSettings = {
       var tgaImg = response.response.results[0].fields.thumbnail;
 
       console.log("test")
-      console.log("look at me", response);
+      console.log(response);
       console.log("is this the url?", tgaUrl);
       console.log("do I see the title?", title);
       console.log("do I see the image?", tgaImg);
