@@ -14,7 +14,6 @@ var simplemaps_usmap_mapdata={
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
-    all_states_zoomable: "yes",
     
     //Location defaults
     location_description: "Add location markers using latitude and longitude!",
@@ -166,7 +165,8 @@ var simplemaps_usmap_mapdata={
     IA: {
       name: "Iowa",
       color: "#3B729F",
-      state_description: "Hello",
+      description: "Click here to see results",
+      url: "https://www.politico.com/2020-election/results/iowa/"
     },
     MN: {
       name: "Minnesota"
