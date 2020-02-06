@@ -11,8 +11,8 @@ $.ajax({
     url: queryURL,
     method: "GET"
 }).then(function (response) {
-    console.log(response);
-    $nytHeadline.text(response.response.docs[0].headline.print_headline);
+    // console.log(response);
+    $nytHeadline.text(response.response.docs[0].headline.main);
     $nytImage.attr("src", "https://nytimes.com/" + response.response.docs[0].multimedia[2].url);
     $nytButton.attr("href", response.response.docs[0].web_url);
 
@@ -32,11 +32,11 @@ var redditSettings = {
     var url = response.data.children[0].data.url; // this is the link for the article
     var title = response.data.children[0].data.title; //this is title
   
-    console.log(response);
-    console.log(url);
-    console.log(title);
+    // console.log(response);
+    // console.log(url);
+    // console.log(title);
     $(".red-title").text(title);
-    $(".red-URL").attr("src", url);
+    $(".red-URL").attr("href", url);
   });
   
   
@@ -55,11 +55,11 @@ var redditSettings = {
       var title = response.response.results[0].webTitle; //this is title
       var tgaImg = response.response.results[0].fields.thumbnail;
 
-      console.log("test")
-      console.log("look at me", response);
-      console.log("is this the url?", tgaUrl);
-      console.log("do I see the title?", title);
-      console.log("do I see the image?", tgaImg);
+      // console.log("test")
+      // console.log("look at me", response);
+      // console.log("is this the url?", tgaUrl);
+      // console.log("do I see the title?", title);
+      // console.log("do I see the image?", tgaImg);
 
       $(".tga-title").text(title);
       $(".tga-URL").attr("href", tgaUrl);
