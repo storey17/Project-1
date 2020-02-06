@@ -1,9 +1,24 @@
 # Project-1
 
+USER STORY
+FOR someone who is interested in learning about the current primaries for the upcoming 2020 election
 
-* Home page Credit:
+PROCESS
+- Technologies used
+    - The New York Times API call
+    - Reddit API call
+    - The Gaurdian API
+    - Simple Map JavaScript library
+    - Boostrap
 
-Website theme
+DIRECTIONS FOR FUTURE DEVELOPMENT
+- Make the USA map automatically update and pull information as the primaries occur
+- Have a graph with up to date results on who is in the lead
+
+
+* Home Page Credits:
+
+Website Theme
 URL: https://startbootstrap.com/
 Theme name: Business Frontpage
 Theme URL: https://startbootstrap.com/templates/business-frontpage/
@@ -11,16 +26,16 @@ Theme URL: https://startbootstrap.com/templates/business-frontpage/
 Images A-team 
 URL: https://www.bbc.com/news/world-us-canada-47309795
 
-US map 
+USA Map 
 URL: https://simplemaps.com/
 
 Favicon 
-web URL: https://www.favicon.cc/?action=icon_list&tag_id=8255
-icon name: Vote
-icon URL: https://www.favicon.cc/?action=icon&file_id=344445
+Web URL: https://www.favicon.cc/?action=icon_list&tag_id=8255
+Icon name: Vote
+Icon URL: https://www.favicon.cc/?action=icon&file_id=344445
 
 * Candidate Page Credit:
-All candidates photos were pull from a google search.
+All candidate photos were pulled from Google
 
 
 
