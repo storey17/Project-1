@@ -1,5 +1,9 @@
 # Project-1
 
+A website meant for people trying to be more informed about this years elections but aren't sure where to start. 
+A website that helps people be informed about current elections with a range of news sources and information about top candidates. 
+
+
 USER STORY
 FOR someone who is interested in learning about the current primaries for the upcoming 2020 election
 
