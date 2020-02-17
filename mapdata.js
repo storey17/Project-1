@@ -80,6 +80,9 @@ var simplemaps_usmap_mapdata={
     },
     NH: {
       name: "New Hampshire"
+      color: "#3B729F",
+      description: "Click here to see results",
+      url: "https://www.politico.com/2020-election/results/new-hampshire/"
     },
     VT: {
       name: "Vermont"
